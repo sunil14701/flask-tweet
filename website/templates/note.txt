@@ -1,0 +1,25 @@
+we are going to put all of our HTML files
+
+note in flask to render html , all the html files sholud be in TEMPLATES FOLDER it is complosory
+
+render_template 
+<body>
+    <h1>Home is fun</h1>
+
+    <!-- varibale is in double curly brackets which is given by backend to frontend -->
+    <h2>{{name}}</h2>
+    
+    <!-- if else staement via render template -->
+    {% if name == "sunil" %}
+    hi sunil 
+    {% else %}
+    not tim 
+    {% endif %} 
+
+    <!-- for loop -->
+    {% for i in [2,3,4,1] %}
+    {{i}}
+    {% endfor %}
+
+    
+</body>

@@ -1,0 +1,10 @@
+all the code related to our website will be here
+
+# dependency to installed
+pip install flask # light weight python web framework
+pip install Flask-SQLAlchemy
+pip install flask-login # helps in  authentication of users and having them stored in a session
+
+in website folder create a file name __init__.py 
+
+
